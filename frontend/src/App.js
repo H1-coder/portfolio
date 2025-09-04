@@ -173,7 +173,7 @@ const handleSubmit = async (e) => {
             <a href="#projects" className="btn">
               View My Work
             </a>
-             <a href="my cv.pdf" style={{marginLeft:"30px"}} className="btn">
+             <a href="my cv.pdf" className="btn">
               View My CV
             </a>
           </div>
