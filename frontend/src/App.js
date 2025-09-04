@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
 
-    const response = await fetch('http://localhost:5000/api/contact', {
+    const response = await fetch('https://haris-mern.vercel.app/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
