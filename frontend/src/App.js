@@ -320,6 +320,21 @@ const handleSubmit = async (e) => {
                 </div>
               </div>
             </div>
+             <div className="project-card">
+              <img src="book.png" alt="Project 3"/>
+              <div className="project-info">
+                <h3>Hotel Booking Web </h3>
+                <p>Used html Css Bootstrap</p>
+                <div className="project-links">
+                  <a href="https://hotel-booking-web-nine.vercel.app/" className="btn">
+                    Live Demo
+                  </a>
+                  <a href="https://github.com/H1-coder/Hotel-booking-web-.git" className="btn">
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
